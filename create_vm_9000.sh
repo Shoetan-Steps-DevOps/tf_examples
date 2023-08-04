@@ -16,10 +16,10 @@ fi
 #    exit
 # fi
 
-FILE2=/root/jammy-server-cloudimg-amd64.img.original
+FILE2=/root/jammy-server-cloudimg-amd64.img
 if test -f "$FILE2"; then
      echo "found img file skipping download..."
-     cp /root/jammy-server-cloudimg-amd64.img.original /root/jammy-server-cloudimg-amd64.img
+     #  cp /root/jammy-server-cloudimg-amd64.img.original /root/jammy-server-cloudimg-amd64.img
 else
      echo "downloading img file..."
      cd /root/
